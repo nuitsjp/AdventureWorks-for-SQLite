@@ -182,3 +182,5 @@ CREATE INDEX [IX_SalesOrderDetail_ProductID] ON [SalesOrderDetail]([ProductID]);
 CREATE INDEX [IX_SalesOrderHeader_CustomerID] ON [SalesOrderHeader]([CustomerID]);
 
 PRAGMA foreign_keys=true;
+
+VACUUM;
